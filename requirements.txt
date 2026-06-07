@@ -1,0 +1,10 @@
+# Python 3.10
+#
+# DASH-Rec runs on CUDA by default (`device = "cuda"` in code/train.py).
+# The extra index lets pip find CUDA 12.1 PyTorch wheels.
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.3.0+cu121
+numpy>=1.24,<2.0
+scipy==1.11.4
+entmax==1.3
